@@ -3,6 +3,8 @@ Gals b Gone v. 0.1
 This submod changes unit recruitment and a few missions to allow X-Piratez to be played without gals. It is intended to be used with my Alt Start mod to replace the starting
 lunatics with non-gal soldiers. 
 
+The Alt Start mod can be downloaded at https://github.com/JoeGalt/Alt-Start.
+
 Specific changes made include the following:
 
 Recruitment via manufacturing:
@@ -48,6 +50,7 @@ Codex-specific:
 --Ex: Stasis Pod (Perfect Gal) produces Gnome or Orge instead of Lunatic
 --Zombie Embodiment produces Gnome instead of Freak
 --Body Swap transformation can be used on Gnomes and Ogres
+--Shade Embodiment produces Gnome instead of Lunatic
 
 -Gold Codex:
 --Receives two Admiral outfits instead of one. Each can be exchanged for a Unipuma or Avenger armor. 
