@@ -1,0 +1,12 @@
+events:
+  - name: STR_ROGUE_FIELDS_ARMOR_EVENT
+    everyItemList: [STR_LOADER_ARMOR]
+  - name: STR_FUEGO_ANOMALY_EVENT
+    everyMultiItemList:
+      STR_CODEX_GOLD: 1
+      STR_SILVER_BAR: 12
+      STR_GOLD_BAR: 36
+      STR_TREASURE_CHEST: 1
+      STR_SPACE_SUIT: 3
+      STR_CLOTHING_OFFICER: 2
+      STR_OFFICERS_BATON: 1

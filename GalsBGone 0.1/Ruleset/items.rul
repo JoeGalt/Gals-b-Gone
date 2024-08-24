@@ -1,0 +1,40 @@
+items: 
+  - type: STR_BLOODOGE_TICKET
+    categories: [STR_BAT_CAT_ARTIFACT]
+    requires:
+      - STR_UNAVAILABLE
+    size: 0.1
+    weight: 4
+    costSell: 0
+    bigSprite: 110
+    floorSprite: 72
+    battleType: 10
+    power: 13
+    costThrow:
+      energy: 20
+      time: 40
+    armor: 100
+    recoveryPoints: 0
+    listOrder: 16062
+  - type: STR_HERO
+    categories: [STR_BAT_CAT_PEOPLE]
+    requiresBuy:
+      - STR_SOLDIER_V_RECRUITMENT
+    costBuy: 320000
+    monthlyBuyLimit: 1
+    transferTime: 72
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 35000
+  - type: STR_JUNGLEFIGHTER_GIRL
+    categories: [STR_BAT_CAT_PEOPLE]
+    requiresBuy:
+      - STR_SOLDIER_V_RECRUITMENT
+    costBuy: 320000
+    monthlyBuyLimit: 1
+    transferTime: 72
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 35000

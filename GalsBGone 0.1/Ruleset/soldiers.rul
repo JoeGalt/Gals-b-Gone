@@ -1,0 +1,19 @@
+soldiers:
+  - type: STR_SOLDIER_V
+    requires:
+      - STR_UNAVAILABLE
+  - type: STR_SOLDIER_GNOME
+    requires:
+      - STR_BOUNTY_HUNTING_PRIZE_SOLDIER_X
+    costBuy: 75000
+    monthlyBuyLimit: 6
+  - type: STR_SOLDIER_X
+    requires:
+      - STR_UNAVAILABLE
+  - type: STR_SOLDIER_OGRE
+    monthlyBuyLimit: 4
+  - type: STR_SOLDIER_DAMSEL
+    requires:
+      - STR_QUEEN_GRAY
+      - STR_DAMSEL_RECRUITMENT
+    costBuy: 25000

@@ -1,0 +1,8 @@
+soldierTransformation:
+  - name: STR_BODY_SWAP
+    allowedSoldierTypes:
+      - STR_SOLDIER_GNOME
+      - STR_SOLDIER_OGRE
+  - name: STR_SHADE_EMBODIMENT
+    producedSoldierType: STR_SOLDIER_GNOME
+    producedSoldierArmor: STR_GNOME_NUDE_UC

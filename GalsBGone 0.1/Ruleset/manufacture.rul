@@ -1,0 +1,619 @@
+manufacture:
+  - name: STR_STASIS_POD_GREEN_GAL_EXTRACTION
+    producedItems:
+      STR_SCRAP_METAL: 5
+    spawnedPersonType: STR_SOLDIER_OGRE
+    spawnedSoldier:
+        previousTransformations:
+          STR_GREEN_BEAUTY: 1
+        transformationBonuses:
+          STR_GREEN_BEAUTY: 1
+  - name: STR_STASIS_POD_GREEN_GAL_EXTRACTION_GNOME
+    category: STR_EXTRACTION
+    requires:
+      - STR_STASIS_POD_GREEN_GAL
+    space: 0
+    time: 20
+    cost: 0
+    requiredItems:
+      STR_STASIS_POD_GREEN_GAL: 1
+    producedItems:
+      STR_SCRAP_METAL: 5
+    spawnedPersonType: STR_SOLDIER_GNOME
+    spawnedPersonName: Name Unknown
+    spawnedSoldier:
+        previousTransformations:
+          STR_GREEN_BEAUTY: 1
+        transformationBonuses:
+          STR_GREEN_BEAUTY: 1
+    refund: true
+    listOrder: 15393
+  - name: STR_SISTER_VICTIM_RECRUITMENT
+    spawnedPersonType: STR_SOLDIER_PEASANT
+    spawnedPersonName: Assault Clone
+    spawnedSoldier:
+        nationality: 20
+        rank: 1
+        armor: STR_PEASANT_ARMOR_BIOAQUA_EVA_UC
+        initialStats:
+          tu: 70
+          stamina: 100
+          health: 45
+          bravery: 90
+          reactions: 60
+          firing: 75
+          throwing: 60
+          strength: 40
+          psiStrength: 50
+          psiSkill: 0
+          melee: 70
+          mana: 30
+        currentStats:
+          tu: 70
+          stamina: 100
+          health: 45
+          bravery: 90
+          reactions: 60
+          firing: 75
+          throwing: 60
+          strength: 40
+          psiStrength: 50
+          psiSkill: 0
+          melee: 70
+          mana: 30
+        previousTransformations:
+          STR_THEBAN_ASSAULT_CLONE: 1
+        transformationBonuses:
+          STR_THEBAN_ASSAULT_CLONE: 1
+  - name: STR_YOUNG_UBER_RECRUITMENT
+    spawnedPersonType: STR_SOLDIER_NEKOMIMI_O
+    spawnedSoldier:
+        diary:
+          commendations:
+            - commendationName: STR_NEKO_CLASS_OUTLAW
+              noun: NoNoun
+              decorationLevel: 0
+  - name: STR_YOUNG_UBER_RECRUITMENT_SPY
+    spawnedPersonType: STR_SOLDIER_NEKOMIMI_O
+    spawnedSoldier:
+        transformationBonuses:
+          STR_FORMER_SPY_TRAIT: 1
+        diary:
+          commendations:
+            - commendationName: STR_NEKO_CLASS_OUTLAW
+              noun: NoNoun
+              decorationLevel: 0
+  - name: STR_FREAK_RECRUITMENT
+    spawnedPersonType: STR_SOLDIER_GNOME
+    spawnedSoldier:
+        armor: STR_GNOME_EXPLORER_UC
+  - name: STR_GLAMOUR_RECRUITMENT
+    spawnedPersonType: STR_SOLDIER_HERO
+    spawnedSoldier:
+        rank: 1
+        armor: STR_SLAVE_ARMOR_STRONGMAN_UC
+        transformationBonuses:
+          STR_GLAMOUROUS_TRAIT: 1
+          STR_HEROIC: 1
+          STR_IRON_SKIN_TRAIT: 1
+  - name: STR_RAIDER_SCOUT_RECRUITMENT
+    spawnedPersonType: STR_SOLDIER_NEKOMIMI_O
+    spawnedSoldier:
+        transformationBonuses:
+          STR_FORMER_RAIDER_TRAIT: 1
+        diary:
+          commendations:
+            - commendationName: STR_NEKO_CLASS_OUTLAW
+              noun: NoNoun
+              decorationLevel: 0
+  - name: STR_TURANIAN_UBER_RECRUITMENT
+    spawnedPersonType: STR_SOLDIER_NEKOMIMI_W
+    spawnedSoldier:
+        armor: STR_NEKO_CAMO_PAINT_UC
+        previousTransformations:
+          STR_HUNTRESS_TRAINING: 1
+        transformationBonuses:
+          STR_HUNTRESS: 1
+        diary:
+          commendations:
+            - commendationName: STR_NEKO_CLASS_WARRIOR
+              noun: NoNoun
+              decorationLevel: 0
+    producedItems:
+      STR_BLOODOGE_TICKET: 3
+      STR_BOW_H: 1
+      STR_BOW_H_QUIVER: 10
+      STR_KNOIF_BARB: 1
+      STR_PIKE: 1
+      STR_LUXURY_FUR: 1
+      STR_CLOTHING_TRIBAL: 1
+      STR_SKULL: 1
+      STR_BANDAGE: 2
+  - name: STR_RAIDER_FLAME_GUARD_RECRUITMENT
+    spawnedPersonType: STR_SOLDIER_NEKOMIMI_W
+    spawnedSoldier:
+        armor: STR_NEKO_COMBAT_ARMOR_UC
+        transformationBonuses:
+          STR_FORMER_RAIDER_TRAIT: 1
+        diary:
+          commendations:
+            - commendationName: STR_NEKO_CLASS_WARRIOR
+              noun: NoNoun
+              decorationLevel: 0
+  - name: STR_ZOMBIE_EMBODIMENT
+    spawnedPersonType: STR_SOLDIER_GNOME
+    spawnedSoldier:
+        armor: STR_GNOME_DRESS_UC
+  - name: STR_BLOODOGE_TICKET_CLAIM
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_BLOODOGE_TICKET: 1
+    spawnedPersonType: STR_SOLDIER_BLOODOGE
+    producedItems: {}
+    refund: true
+    listOrder: 15715
+  - name: STR_ADMIRAL_AVENGER
+    category: STR_ARMOR_EXCHANGE
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_CLOTHING_OFFICER: 1
+    producedItems:
+       STR_LOKNAR_FAKK_ARMOR: 1
+    refund: true
+    listOrder: 15715
+  - name: STR_ADMIRAL_UNIPUMA
+    category: STR_ARMOR_EXCHANGE
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_CLOTHING_OFFICER: 1
+    producedItems:
+       STR_NEKO_UNIPUMA: 1
+    refund: true
+    listOrder: 15715
+  - name: STR_AGGRO_STRONGMAN
+    category: STR_ARMOR_EXCHANGE
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_AGGRESSOR_ARMOR: 1
+    producedItems:
+       STR_SLAVE_ARMOR_STRONGMAN: 1
+    refund: true
+    listOrder: 15715
+  - name: STR_AGGRO_GLADIATRIX
+    category: STR_ARMOR_EXCHANGE
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_AGGRESSOR_ARMOR: 1
+    producedItems:
+       STR_PEASANT_ARMOR_GLADIATRIX: 1
+    refund: true
+    listOrder: 15715
+  - name: STR_AGGRO_DOG
+    category: STR_ARMOR_EXCHANGE
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_AGGRESSOR_ARMOR: 1
+    producedItems:
+       STR_DOG_RED_SHIELD: 1
+    refund: true
+    listOrder: 15715
+  - name: STR_AGGRO_STRONGMAN_MANU
+    category: STR_PERSONAL_ARMOR_CAT
+    requires:
+      - STR_AGGRESSOR_ARMOR_PRODUCTION
+    requiresBaseFunc: [WORKS]
+    requiredItems:
+      STR_GUILD_CORPSE: 6
+      STR_SC_WIRE: 2
+      STR_RAIDER_CORPSE: 1
+      STR_ALIEN_ALLOYS: 1
+      STR_SECURITY_CORPSE: 1
+    producedItems:
+       STR_SLAVE_ARMOR_STRONGMAN: 1
+    space: 0
+    time: 1000
+    cost: 8000
+    listOrder: 2052
+  - name: STR_AGGRO_GLADIATRIX_MANU
+    category: STR_PERSONAL_ARMOR_CAT
+    requires:
+      - STR_AGGRESSOR_ARMOR_PRODUCTION
+    requiresBaseFunc: [WORKS]
+    requiredItems:
+      STR_GUILD_CORPSE: 6
+      STR_SC_WIRE: 2
+      STR_RAIDER_CORPSE: 1
+      STR_ALIEN_ALLOYS: 1
+      STR_SECURITY_CORPSE: 1
+    producedItems:
+       STR_PEASANT_ARMOR_GLADIATRIX: 1
+    space: 0
+    time: 1000
+    cost: 8000
+    listOrder: 2052
+  - name: STR_AGGRO_DOG_MANU
+    category: STR_PERSONAL_ARMOR_CAT
+    requires:
+      - STR_AGGRESSOR_ARMOR_PRODUCTION
+    requiresBaseFunc: [WORKS]
+    requiredItems:
+      STR_GUILD_CORPSE: 6
+      STR_SC_WIRE: 2
+      STR_RAIDER_CORPSE: 1
+      STR_ALIEN_ALLOYS: 1
+      STR_SECURITY_CORPSE: 1
+    producedItems:
+       STR_DOG_RED_SHIELD: 1
+    space: 0
+    time: 1000
+    cost: 8000
+    listOrder: 2052
+  - name: STR_SPACE_GAL_HUMAN
+    category: STR_ARMOR_EXCHANGE
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_SPACE_SUIT: 1
+    producedItems:
+       STR_SPACE_SUIT_HUMAN: 1
+    refund: true
+    listOrder: 15715
+  - name: STR_SPACE_GAL_NEKO
+    category: STR_ARMOR_EXCHANGE
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_SPACE_SUIT: 1
+    producedItems:
+       STR_NEKO_SPACE_SUIT: 1
+    refund: true
+    listOrder: 15715
+  - name: STR_SPACE_GAL_LOKNAR
+    category: STR_ARMOR_EXCHANGE
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_SPACE_SUIT: 1
+    producedItems:
+       STR_SPACE_SUIT_LOKNAR: 1
+    refund: true
+    listOrder: 15715
+  - name: STR_PLATE_GAL_LOKNAR
+    category: STR_ARMOR_EXCHANGE
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_PLATE_MAIL: 1
+    producedItems:
+       STR_LOKNAR_PLATE_MAIL: 1
+    refund: true
+    listOrder: 15715
+  - name: STR_PLATE_GAL_NEKO
+    category: STR_ARMOR_EXCHANGE
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_PLATE_MAIL: 1
+    producedItems:
+       STR_FUSO_ARMOR: 1
+    refund: true
+    listOrder: 15715
+  - name: STR_YOUNG_UBER_RECRUITMENT_SPY_DAMSEL
+    category: STR_RECRUITMENT
+    space: 0
+    time: 100
+    cost: 0
+    requires:
+      - STR_SPY_BADGE
+    requiredItems:
+      CIVILIAN_YOUNG_UBER: 1
+      STR_SPY_BADGE: 1
+    spawnedPersonType: STR_SOLDIER_DAMSEL
+    spawnedSoldier:
+        rank: 1
+        transformationBonuses:
+          STR_FORMER_SPY_TRAIT: 1
+    producedItems:
+      STR_GOVT_CORPSE: 5
+    refund: true
+  - name: STR_RAIDER_SCOUT_RECRUITMENT_LOKK
+    category: STR_RECRUITMENT
+    space: 0
+    time: 200
+    cost: 10000
+    requires:
+      - STR_RAIDER_SCOUT_RECRUITMENT
+    requiredItems:
+      STR_RAIDER_SCOUT: 1
+    spawnedPersonType: STR_SOLDIER_LOKNAR
+    spawnedSoldier:
+        armor: STR_LOKNAR_SLAYER_UC
+        transformationBonuses:
+          STR_FORMER_RAIDER_TRAIT: 1
+    producedItems:
+      STR_GOVT_CORPSE: 1
+    randomProducedItems:
+      - [1, {STR_HIDEOUT_CLEANING_BILL: 1}]
+      - [1, {STR_HIDEOUT_CLEANING_BILL: 2}]
+      - [1, {STR_HIDEOUT_CLEANING_BILL: 3}]
+      - [1, {STR_HIDEOUT_CLEANING_BILL: 5}]
+      - [1, {STR_HIDEOUT_CLEANING_BILL: 8}]
+    refund: true
+  - name: STR_YOUNG_UBER_RECRUITMENT_REV
+    category: STR_RECRUITMENT
+    space: 0
+    time: 200
+    cost: 0
+    requires:
+      - STR_YOUNG_UBER_RECRUITMENT
+    requiredItems:
+      CIVILIAN_YOUNG_UBER: 1
+    spawnedPersonType: STR_SOLDIER_PEASANT
+    spawnedSoldier:
+        armor: STR_PEASANT_ARMOR_DURASUIT_UC
+        currentStats:
+          tu: 65
+          firing: 60
+          strength: 25
+          bravery: 80
+        previousTransformations:
+          STR_REVOLUTIONARY_TRAINING: 1
+        transformationBonuses:
+          STR_REVOLUTIONARY: 1
+    producedItems:
+      STR_GOVT_CORPSE: 1
+    refund: true
+  - name: STR_GLAMOUR_RECRUITMENT_GUIDE
+    category: STR_RECRUITMENT
+    requiresBaseFunc: [CULT]
+    space: 0
+    time: 100
+    cost: 0
+    requires:
+      - STR_GLAMOUR_RECRUITMENT
+    requiredItems:
+      STR_GLAMOUR: 250
+    spawnedPersonType: STR_SOLDIER_PEASANT
+    spawnedSoldier:
+        armor: STR_PEASANT_ARMOR_LEGION_UC
+        currentStats:
+          tu: 75
+          stamina: 100
+          health: 50
+          firing: 75
+          throwing: 75
+          melee: 75
+          reactions: 75
+          strength: 40
+          bravery: 90
+          psiStrength: 60
+          mana: 125
+        previousTransformations:
+          STR_REVOLUTIONARY_TRAINING: 1
+          STR_NIGHTSHADE_AUGMENTATION: 1
+          STR_MILITIA_TRAINING: 1
+          STR_BASIC_FIREARMS_TRAINING: 1
+        transformationBonuses:
+          STR_REVOLUTIONARY: 1
+          STR_NIGHTSHADE: 1
+          STR_MILITIA_TRAINING: 1
+          STR_BASIC_FIREARMS_TRAINING: 1
+          STR_WILD_TRAIT: 1
+          STR_SUPERSOLDIER_TRAIT: 1
+          STR_GLAMOUROUS_TRAIT: 1
+    producedItems:
+      STR_KNOIF_BARB: 1
+      STR_GRENADE_FRAG: 3
+      STR_SMALL_MEDIPACK: 1
+    randomProducedItems:
+      - [1, {STR_LASER_RIFLE_M: 1, STR_LASER_RIFLE_M_CLIP: 5}]
+      - [1, {STR_RAYGUN: 1, STR_RAYGUN_CLIP: 8, STR_GLADIUS: 1, STR_DYNAMITE: 2}]
+      - [1, {STR_OGRE_SHOTGUN: 1, STR_OGRE_SHOTGUN_SHELLS: 25, STR_DYNAMITE: 2}]
+      - [1, {STR_SNIPER_RIFLE: 1, STR_SNIPER_RIFLE_CLIP_PS: 5}]
+      - [1, {STR_SHOOTA_MK2: 1, STR_SHOOTA_CLIP: 5}]
+      - [1, {STR_ROCKET_LAUNCHER: 1, STR_LARGE_ROCKET: 5}]
+      - [1, {STR_STORM_LASER: 1, STR_STORM_LASER_CLIP_LO: 5, STR_DYNAMITE: 5}]
+      - [1, {STR_SNIPER_LASER_PIR: 1, STR_SNIPER_LASER_CLIP_HI: 5}]
+      - [1, {STR_BIG_RIFLE: 1, STR_HMG_CLIP_SMALL: 5}]
+      - [1, {STR_HEAVY_CANNON: 1, STR_HC_AP_AMMO: 10}]
+      - [1, {STR_CAWS: 1, STR_CAWS_CLIP_AP: 5, STR_CAWS_CLIP_S: 5, STR_HIGH_EXPLOSIVE: 1}]
+      - [1, {STR_BOOM_GUN: 1, STR_BOOM_AMMO: 10}]
+      - [1, {STR_MINIGUN: 1, STR_MINIGUN_AMMO: 5, STR_DYNAMITE: 2}]
+    refund: true 
+  - name: STR_GLAMOUR_RECRUITMENT_CATWARRIOR
+    category: STR_RECRUITMENT
+    requiresBaseFunc: [CULT]
+    space: 0
+    time: 100
+    cost: 0
+    requires:
+      - STR_GLAMOUR_RECRUITMENT
+    requiredItems:
+      STR_GLAMOUR: 250
+    spawnedPersonType: STR_SOLDIER_NEKOMIMI_W
+    spawnedSoldier:
+        armor: STR_NEKO_COMBAT_ARMOR_UC
+        diary:
+          commendations:
+            - commendationName: STR_NEKO_CLASS_WARRIOR
+              noun: NoNoun
+              decorationLevel: 0
+        transformationBonuses:
+          STR_GLAMOUROUS_TRAIT: 1
+    producedItems:
+      STR_KNOIF_BARB: 1
+      STR_GRENADE_FRAG: 3
+      STR_SMALL_MEDIPACK: 1
+    randomProducedItems:
+      - [1, {STR_LASER_RIFLE_M: 1, STR_LASER_RIFLE_M_CLIP: 5}]
+      - [1, {STR_RAYGUN: 1, STR_RAYGUN_CLIP: 8, STR_GLADIUS: 1, STR_DYNAMITE: 2}]
+      - [1, {STR_OGRE_SHOTGUN: 1, STR_OGRE_SHOTGUN_SHELLS: 25, STR_DYNAMITE: 2}]
+      - [1, {STR_SNIPER_RIFLE: 1, STR_SNIPER_RIFLE_CLIP_PS: 5}]
+      - [1, {STR_SHOOTA_MK2: 1, STR_SHOOTA_CLIP: 5}]
+      - [1, {STR_ROCKET_LAUNCHER: 1, STR_LARGE_ROCKET: 5}]
+      - [1, {STR_STORM_LASER: 1, STR_STORM_LASER_CLIP_LO: 5, STR_DYNAMITE: 5}]
+      - [1, {STR_SNIPER_LASER_PIR: 1, STR_SNIPER_LASER_CLIP_HI: 5}]
+      - [1, {STR_BIG_RIFLE: 1, STR_HMG_CLIP_SMALL: 5}]
+      - [1, {STR_HEAVY_CANNON: 1, STR_HC_AP_AMMO: 10}]
+      - [1, {STR_CAWS: 1, STR_CAWS_CLIP_AP: 5, STR_CAWS_CLIP_S: 5, STR_HIGH_EXPLOSIVE: 1}]
+      - [1, {STR_BOOM_GUN: 1, STR_BOOM_AMMO: 10}]
+      - [1, {STR_MINIGUN: 1, STR_MINIGUN_AMMO: 5, STR_DYNAMITE: 2}]
+    refund: true
+  - name: STR_GLAMOUR_RECRUITMENT_WILD
+    category: STR_RECRUITMENT
+    requiresBaseFunc: [CULT]
+    space: 0
+    time: 100
+    cost: 0
+    requires:
+      - STR_GLAMOUR_RECRUITMENT
+    requiredItems:
+      STR_GLAMOUR: 300
+    spawnedPersonType: STR_SOLDIER_GNOME
+    spawnedSoldier:
+        armor: STR_GNOME_EXPERIMENT_UC
+        currentStats:
+          strength: 20
+          tu: 70
+          stamina: 175
+          throwing: 125
+        transformationBonuses:
+          STR_WILD_TRAIT: 1
+          STR_GLAMOUROUS_TRAIT: 1
+    producedItems:
+      STR_KNOIF_BARB: 1
+      STR_GRENADE_FRAG: 3
+      STR_SMALL_MEDIPACK: 1
+    randomProducedItems:
+      - [1, {STR_LASER_RIFLE_M: 1, STR_LASER_RIFLE_M_CLIP: 5}]
+      - [1, {STR_RAYGUN: 1, STR_RAYGUN_CLIP: 8, STR_GLADIUS: 1, STR_DYNAMITE: 2}]
+      - [1, {STR_OGRE_SHOTGUN: 1, STR_OGRE_SHOTGUN_SHELLS: 25, STR_DYNAMITE: 2}]
+      - [1, {STR_SNIPER_RIFLE: 1, STR_SNIPER_RIFLE_CLIP_PS: 5}]
+      - [1, {STR_SHOOTA_MK2: 1, STR_SHOOTA_CLIP: 5}]
+      - [1, {STR_ROCKET_LAUNCHER: 1, STR_LARGE_ROCKET: 5}]
+      - [1, {STR_STORM_LASER: 1, STR_STORM_LASER_CLIP_LO: 5, STR_DYNAMITE: 5}]
+      - [1, {STR_SNIPER_LASER_PIR: 1, STR_SNIPER_LASER_CLIP_HI: 5}]
+      - [1, {STR_BIG_RIFLE: 1, STR_HMG_CLIP_SMALL: 5}]
+      - [1, {STR_HEAVY_CANNON: 1, STR_HC_AP_AMMO: 10}]
+      - [1, {STR_CAWS: 1, STR_CAWS_CLIP_AP: 5, STR_CAWS_CLIP_S: 5, STR_HIGH_EXPLOSIVE: 1}]
+      - [1, {STR_BOOM_GUN: 1, STR_BOOM_AMMO: 10}]
+      - [1, {STR_MINIGUN: 1, STR_MINIGUN_AMMO: 5, STR_DYNAMITE: 2}]
+    refund: true 	
+  - name: STR_RAIDER_HUGE_OGRE_RECRUITMENT
+    category: STR_RECRUITMENT
+    space: 0
+    time: 200
+    cost: 25000
+    requires:
+      - STR_RAIDER_SCOUT_RECRUITMENT
+      - STR_RAIDER_HUMONGOUS
+    requiredItems:
+      STR_RAIDER_HUMONGOUS: 1
+    spawnedPersonType: STR_SOLDIER_OGRE
+    spawnedSoldier:
+        transformationBonuses:
+          STR_FORMER_RAIDER_TRAIT: 1
+    producedItems:
+      STR_GOVT_CORPSE: 1
+    refund: true  
+  - name: STR_BLOODOGE_TAMING
+    category: STR_RECRUITMENT
+    space: 0
+    time: 200
+    requires:
+      - STR_ANIMAL_TAMING
+      - STR_BLOOD_DOG_TERRORIST
+    requiredItems:
+      STR_BLOOD_DOG_TERRORIST: 1
+      STR_MUTANT_MEAT: 4
+    spawnedPersonType: STR_SOLDIER_BLOODOGE
+    producedItems: {}
+    refund: true
+  - name: STR_COMMANDO_PUREBLOOD
+    category: STR_RECRUITMENT
+    space: 0
+    time: 200
+    cost: 30000
+    requires:
+      - STR_SLAVE_SOLDIERS
+      - STR_PERSUASION
+      - STR_HUMAN_SOLDIER_COMMANDO
+    requiredItems:
+      STR_HUMAN_SOLDIER_COMMANDO: 1
+    spawnedPersonType: STR_SOLDIER_PUREBLOOD
+    spawnedSoldier:
+        armor: STR_SLAVE_ARMOR_LEGION_UC
+    producedItems:
+      STR_GOVT_CORPSE: 1
+    refund: true  
+  - name: STR_DISCIPLE_GRAY
+    category: STR_RECRUITMENT
+    requiresBaseFunc: [CULT]
+    space: 0
+    time: 100
+    cost: 160000
+    requires:
+      - STR_GLAMOUR_RECRUITMENT
+      - STR_HYBRID_RECRUITMENT
+      - STR_MUTANT_MAGIC
+    requiredItems:
+      STR_GLAMOUR: 35
+    spawnedPersonType: STR_SOLDIER_HYBRID
+    spawnedSoldier:
+        transformationBonuses:
+          STR_REVOLUTIONARY: 1
+          STR_SUN_WARRIOR: 1
+          STR_BEEFY_TRAIT: 1
+        previousTransformations:
+          STR_REVOLUTIONARY_TRAINING: 1
+          STR_SUN_WARRIORS_TRAINING: 1
+    producedItems: {}   
+    refund: true  
+  - name: STR_THEURGE_GRAY
+    category: STR_RECRUITMENT
+    requiresBaseFunc: [CULT]
+    space: 0
+    time: 100
+    cost: 350000
+    requires:
+      - STR_GLAMOUR_RECRUITMENT
+      - STR_DAMSEL_RECRUITMENT
+      - STR_VOODOO_ARMOR
+    requiredItems:
+      STR_GLAMOUR: 100
+    spawnedPersonType: STR_SOLDIER_DAMSEL
+    spawnedSoldier:
+        armor: STR_NUN_OUTFIT_UC
+        currentStats:
+          stamina: 64
+          bravery: 80
+          psiSkill: 45
+          psiStrength: 72
+        transformationBonuses:
+          STR_ORTHODOX_MAGE_TRAIT: 1
+          STR_MAGICIENNE: 1
+          STR_REVOLUTIONARY: 1
+          STR_INDESTRUCTIBLE_TRAIT: 1
+        previousTransformations:
+          STR_REVOLUTIONARY_TRAINING: 1
+          STR_MAGICIENNE_TRAINING: 1
+    producedItems: {}   
+    refund: true  

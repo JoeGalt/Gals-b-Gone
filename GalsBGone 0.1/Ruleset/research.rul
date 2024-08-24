@@ -1,0 +1,27 @@
+research:
+  - name: STR_SUPER_SLAVE
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_OLD_EARTH_VOODOO
+      - STR_SLAVE_SOLDIERS
+      - STR_CRACK
+  - name: STR_DIVERGING_PATHS
+    disables:
+      - STR_GALS_ARE_SUPERIOR
+      - STR_GALS_ARE_SUPERIOR_PREQ
+  - name: STR_TURANIAN_UBER_RECRUITMENT
+    dependencies:
+      - STR_TURANIAN_UBER
+      - STR_TURAN
+      - STR_BLOOD_DOG_TERRORIST
+      - STR_RAIDING_PARTY
+      - STR_LUXURY_FUR
+      - STR_SKULL
+  - name: STR_TURANIAN_UBER
+    getOneFree:
+      - STR_TURAN
+      - STR_BLOOD_DOG_TERRORIST
+      - STR_RAIDING_PARTY
+      - STR_LUXURY_FUR
+      - STR_SKULL

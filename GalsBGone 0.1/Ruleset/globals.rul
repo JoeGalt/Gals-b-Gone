@@ -1,0 +1,132 @@
+startingConditions:
+  - type: STR_STARCON_PRISON
+    allowedSoldierTypes:
+      - STR_SOLDIER_SLAVE
+      - STR_SOLDIER_PUREBLOOD
+      - STR_SOLDIER_HERO
+      - STR_SOLDIER_PEASANT
+      - STR_SOLDIER_DAMSEL
+      - STR_SOLDIER_LOKNAR
+      - STR_SOLDIER_GNOME
+      - STR_SOLDIER_NEKOMIMI
+      - STR_SOLDIER_NEKOMIMI_O
+      - STR_SOLDIER_NEKOMIMI_H
+      - STR_SOLDIER_NEKOMIMI_W
+    defaultArmor:
+      STR_SOLDIER_SLAVE: 
+        STR_SLAVE_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_PUREBLOOD:
+        STR_SLAVE_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_HERO:
+        STR_SLAVE_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_PEASANT:
+        STR_PEASANT_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_DAMSEL:
+        STR_PEASANT_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_LOKNAR:
+        STR_LOKNAR_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_GNOME:
+        STR_GNOME_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_NEKOMIMI:
+        STR_NEKO_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_NEKOMIMI_O:
+        STR_NEKO_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_NEKOMIMI_H:
+        STR_NEKO_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_NEKOMIMI_W:
+        STR_NEKO_NUDE_UC: 100
+        noChange: 0
+    allowedArmors:
+      - BOXX_ARMOR
+  - type: STR_STARCON_DISC_DUEL
+    allowedSoldierTypes:
+      - STR_SOLDIER_SLAVE
+      - STR_SOLDIER_PUREBLOOD
+      - STR_SOLDIER_HERO
+      - STR_SOLDIER_PEASANT
+      - STR_SOLDIER_DAMSEL
+      - STR_SOLDIER_HYBRID
+      - STR_SOLDIER_LOKNAR
+      - STR_SOLDIER_GNOME
+      - STR_SOLDIER_OGRE
+      - STR_SOLDIER_NEKOMIMI
+      - STR_SOLDIER_NEKOMIMI_O
+      - STR_SOLDIER_NEKOMIMI_W
+      - STR_SOLDIER_NEKOMIMI_H
+    allowedArmors:
+      - STR_SKYKNIGHT_ARMOR_UC
+      - STR_PEASANT_ARMOR_RAVEN_UC
+      - STR_HYBRID_CYBERARMOR_UC
+      - STR_LOKNAR_NIGHTFLYER_UC
+      - STR_SHADOW_ARMOR_LOKNAR_UC
+      - STR_NEKO_BLITZ_ARMOR_UC
+      - STR_NEKO_ANNIHILATOR_ARMOR_UC
+      - STR_NEKO_TERMICATOR_ARMOR_UC
+      - STR_ANNIHILATOR_ARMOR_OGRE_UC
+      - STR_GNOME_TAC_GRAV_ARMOR_UC
+      - STR_GNOME_TAC_GRAV_SHIELD_ARMOR_UC
+      - STR_NEKO_HOVER_ARMOR_UC
+      - STR_NEKO_WITCH_OUTFIT_UC
+  - type: STR_STARCON_GAL_PARTY
+    allowedSoldierTypes:
+      - STR_SOLDIER_SLAVE
+      - STR_SOLDIER_PUREBLOOD
+      - STR_SOLDIER_HERO
+      - STR_SOLDIER_PEASANT
+      - STR_SOLDIER_DAMSEL
+      - STR_SOLDIER_LOKNAR
+      - STR_SOLDIER_GNOME
+      - STR_SOLDIER_NEKOMIMI
+      - STR_SOLDIER_NEKOMIMI_O
+      - STR_SOLDIER_NEKOMIMI_H
+      - STR_SOLDIER_NEKOMIMI_W
+      - STR_SOLDIER_OGRE
+    defaultArmor:
+      STR_SOLDIER_SLAVE: 
+        STR_SLAVE_PUNK_UC: 100
+        noChange: 0
+      STR_SOLDIER_PUREBLOOD:
+        STR_SLAVE_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_HERO:
+        STR_SLAVE_PUNK_UC: 100
+        noChange: 0
+      STR_SOLDIER_PEASANT:
+        STR_PEASANT_ARMOR_DRESS_UC: 100
+        noChange: 0
+      STR_SOLDIER_DAMSEL:
+        STR_DAMSEL_PATRON_DRESS_UC: 100
+        noChange: 0
+      STR_SOLDIER_LOKNAR:
+        STR_LOKNAR_UNARMORED_UC: 100
+        noChange: 0
+      STR_SOLDIER_GNOME:
+        STR_GNOME_DRESS_UC: 100
+        noChange: 0
+      STR_SOLDIER_NEKOMIMI:
+        STR_NEKO_STS_UC: 100
+        noChange: 0
+      STR_SOLDIER_NEKOMIMI_O:
+        STR_NEKO_PRISONER_ROBE_UC: 100
+        noChange: 0
+      STR_SOLDIER_NEKOMIMI_H:
+        STR_NEKO_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_NEKOMIMI_W:
+        STR_NEKO_NUDE_UC: 100
+        noChange: 0
+      STR_SOLDIER_OGRE:
+        STR_OGRE_BREECHES_UC: 100
+        noChange: 0
+    allowedArmors:
+      - BOXX_ARMOR
